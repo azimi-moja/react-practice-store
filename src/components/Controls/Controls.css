@@ -1,0 +1,27 @@
+.controls {
+    width: 50rem;
+    background-color: #fafaff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 32px 0;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.07);
+}
+
+.orderBtn {
+    background-color: #1ebee7;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #8e24aa;
+    padding: 16px 32px;
+    margin-top: 32 px;
+}
+
+.totalPrice {
+    color: #6a1b9a;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,24 @@
+.modal {
+    position: fixed;
+    z-index: 300;
+    background-color: #ffffff;
+    width: 25%;
+    border:1 px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 16px;
+    left: 30%;
+    top:25%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s ease-out;    
+}
+
+.hideModal {
+    transform: translateY(-100vh);
+    opacity: 0;
+}
+
+.showModal {
+    transform: translateY(0);
+    opacity: 1;
+}

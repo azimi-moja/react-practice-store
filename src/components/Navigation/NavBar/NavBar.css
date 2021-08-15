@@ -1,0 +1,14 @@
+.navBarHeader {
+    width: 100%;
+    height: 56px;
+    background-color: #8e24aa;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 50;
+    align-items: center;
+    padding: 0 20px;
+}
